@@ -24,6 +24,7 @@ const Hero = () => {
             damping: 10,
             duration: 1,
           }}
+          whileHover={{ scale: 1.1 }}
         >
           Fayzul Islam
         </motion.h1>
@@ -36,6 +37,7 @@ const Hero = () => {
             delay: 0.5, // Slight delay for p tag to appear after title
             duration: 1.5,
           }}
+          whileHover={{ scale: 1.2 }}
         >
           Web Developer and Designer
         </motion.p>
