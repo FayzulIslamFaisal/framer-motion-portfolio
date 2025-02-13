@@ -1,9 +1,12 @@
 import React from "react";
+import Navbar from "./navbar/Navbar";
 
 const HomeWrapper = () => {
   return (
     <>
-      <section className="h-screen">Hero</section>
+      <section className="h-screen">
+        <Navbar />
+      </section>
       <section className="h-screen">Parallax</section>
       <section className="h-screen">Service</section>
       <section className="h-screen">Portfolio1</section>
